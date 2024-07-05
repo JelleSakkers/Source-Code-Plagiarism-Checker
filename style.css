@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.file-path {
+    color: green;
+}
+
+.containment, .intersection {
+    color: blue;
+}
+
+.code-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 5px; 
+}
+
+.code-block {
+    width: 50%;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow-x: auto;
+}
