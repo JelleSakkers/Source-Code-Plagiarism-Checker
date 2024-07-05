@@ -1,4 +1,7 @@
 ## Overview
+
+![report-1](https://github.com/niconap/PSE/assets/117186617/b76f1e5f-9838-4789-a888-3ce6f5518c01)
+
 The script used the concepts outlined in [this paper](https://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) to perform code similarity checks based on code fingerprints and containment calculations. The script uses Numpy for efficient indexing calculations, while code preprocessing leverages [Pygments](https://pygments.org/), supporting tokenization across numerous programming languages.
 
 The main desired and realised properties of the model is the usage of whitespace insensitivity. In matching source code files, matches should be unaffected by such things as extra whitespace, capitalization, punctuation, etc. Also, noise suppression, discovering short matches, such as the fact that the word the appears in two different documents, is uninteresting. Position independence Coarse-grained permutation of the contents of a document (e.g., scrambling the order of functions) should not affect the set of discovered matches.
