@@ -1,5 +1,7 @@
 ## Overview
 
+REFACTOR NEEDED, WAS PART OF A BIGGER PROJECT.
+
 ![report-1](https://github.com/niconap/PSE/assets/117186617/b76f1e5f-9838-4789-a888-3ce6f5518c01)
 
 The script used the concepts outlined in [this paper](https://theory.stanford.edu/~aiken/publications/papers/sigmod03.pdf) to perform code similarity checks based on code fingerprints and containment calculations. The script uses Numpy for efficient indexing calculations, while code preprocessing leverages [Pygments](https://pygments.org/), supporting tokenization across numerous programming languages.
